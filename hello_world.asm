@@ -7,4 +7,4 @@ start:	mov	r1,string_hello
 	orr	r1,r1,26h	;ADP_Stopped_ApplicationExit
 	swi	0x123456	;Multi-ICE DCC semihosting
 
-string_hello	db	'Hello ARM semi-hosting world',13,10,0
+string_hello	db	'Hello world',13,10,0
